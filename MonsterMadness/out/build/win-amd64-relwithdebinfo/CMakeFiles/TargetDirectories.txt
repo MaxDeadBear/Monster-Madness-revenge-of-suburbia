@@ -1,0 +1,4 @@
+G:/rex/MonsterMadness/out/build/win-amd64-relwithdebinfo/CMakeFiles/monster_madness_codegen.dir
+G:/rex/MonsterMadness/out/build/win-amd64-relwithdebinfo/CMakeFiles/monster_madness.dir
+G:/rex/MonsterMadness/out/build/win-amd64-relwithdebinfo/CMakeFiles/edit_cache.dir
+G:/rex/MonsterMadness/out/build/win-amd64-relwithdebinfo/CMakeFiles/rebuild_cache.dir

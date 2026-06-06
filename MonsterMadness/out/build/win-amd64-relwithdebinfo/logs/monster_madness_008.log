@@ -1,0 +1,42 @@
+[2026-06-02 20:30:35.649] [info] [core] [t20660] Loaded config: monster_madness.toml
+[2026-06-02 20:30:35.649] [info] [core] [t20660] monster_madness starting
+[2026-06-02 20:30:35.649] [info] [core] [t20660]   Game directory: G:/rex/MonsterMadness\assets
+[2026-06-02 20:30:35.649] [info] [core] [t20660]   User data:      C:\Users\MaxDe\Documents\monster_madness
+[2026-06-02 20:30:35.650] [info] [core] [t20660]   Cache root:     C:\Users\MaxDe\Documents\monster_madness\cache
+[2026-06-02 20:30:35.785] [info] [gpu] [t20660] DXGI adapter: NVIDIA GeForce RTX 3080 (vendor 0x10DE, device 0x2216)
+[2026-06-02 20:30:35.988] [info] [gpu] [t20660] Direct3D 12 device and OS features:
+* Max GPU virtual address bits per resource: 40
+* Non-zeroed heap creation: yes
+* Pixel-shader-specified stencil reference: no
+* Programmable sample positions: tier 2
+* Rasterizer-ordered views: yes
+* Resource binding: tier 3
+* Tiled resources: tier 4
+* Unaligned block-compressed textures: yes
+[2026-06-02 20:30:36.279] [info] [sys] [t20660] FunctionDispatcher initialized
+[2026-06-02 20:30:36.280] [info] [core] [t20660] SDL: Using version 3.5.0
+[2026-06-02 20:30:36.280] [info] [core] [t20660] MnK input driver initialized
+[2026-06-02 20:30:36.280] [info] [sys] [t20660] Input system initialized
+[2026-06-02 20:30:36.321] [info] [sys] [t20660] Audio system initialized
+[2026-06-02 20:30:36.321] [info] [sys] [t23720] XThread::Execute thid 1 (handle=F8000010, 'XMA Decoder (F8000010)', native=00005CA8, <host>)
+[2026-06-02 20:30:36.322] [info] [sys] [t23560] XThread::Execute thid 2 (handle=F8000014, 'Audio Worker (F8000014)', native=00005C08, <host>)
+[2026-06-02 20:30:36.325] [info] [sys] [t20660]   Mounted G:\rex\MonsterMadness\assets at \Device\Harddisk0\Partition1
+[2026-06-02 20:30:36.326] [info] [sys] [t20660] GPU system initialized (presentation=true)
+[2026-06-02 20:30:36.326] [info] [sys] [t5092] XThread::Execute thid 3 (handle=F8000018, 'GPU Commands (F8000018)', native=000013E4, <host>)
+[2026-06-02 20:30:36.327] [info] [sys] [t20660] Runtime initialized successfully
+[2026-06-02 20:30:36.328] [info] [sys] [t18012] XThread::Execute thid 4 (handle=F800001C, 'GPU VSync (F800001C)', native=0000465C, <host>)
+[2026-06-02 20:30:36.337] [info] [core] [t20660] Function table initialized for module: code=82200000-82BE6350, image=82000000-83050000
+[2026-06-02 20:30:36.532] [warning] [core] [t20660] SDL GameControllerDB: file 'gamecontrollerdb.txt' does not exist.
+[2026-06-02 20:30:36.533] [info] [core] [t20660] SDL input driver initialized successfully
+[2026-06-02 20:30:36.533] [info] [sys] [t20660] Loading XEX image: game:\patched_default.xex
+[2026-06-02 20:30:36.606] [warning] [fs] [t20660] VFS: entry not found for '\Device\Harddisk0\Partition1\patched_default.xexp' on device '\Device\Harddisk0\Partition1'
+[2026-06-02 20:30:36.608] [info] [sys] [t20660] KernelState: Preparing module launch...
+[2026-06-02 20:30:36.609] [info] [sys] [t3848] XThread::Execute thid 5 (handle=F8000024, 'Kernel Dispatch (F8000024)', native=00000F08, <host>)
+[2026-06-02 20:30:36.609] [info] [core] [t20660] Initializing shader storage for title 535007D1...
+[2026-06-02 20:30:36.619] [info] [gpu] [t5092] Translated 62 shaders from the storage in 8 milliseconds
+[2026-06-02 20:30:36.630] [info] [gpu] [t5092] Created 44 graphics pipelines (not including reading the descriptions) from the storage in 10 milliseconds
+[2026-06-02 20:30:36.650] [info] [gpu] [t22808] SetInterruptCallback(8220A600, 4004AD00)
+[2026-06-02 20:30:36.714] [warning] [fs] [t22808] VFS: 'ShaderDumpxe:\CompareBackEnds' -> [no device]
+[2026-06-02 20:30:37.291] [info] [core] [t25380] SDL OnControllerDeviceAdded: "MOGA XP5-X Plus", JoystickType(1), GameControllerType(1), VendorID(0x24C6), ProductID(0x891A)
+[2026-06-02 20:30:37.292] [info] [core] [t25380] SDL OnControllerDeviceAdded: Added at index 0.
+[2026-06-02 20:31:34.421] [critical] [core] [t22808] [FATAL] Call to invalid or unregistered function at guest address 0x823CC960

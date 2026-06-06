@@ -1,0 +1,303 @@
+{
+	"configurations" : 
+	[
+		{
+			"abstractTargets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "SDL3::Headers::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SDL3__Headers-RelWithDebInfo-4872e5b26d368b7d2d30.json",
+					"name" : "SDL3::Headers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SDL3::SDL3-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SDL3__SDL3-static-RelWithDebInfo-4cb19a2ef4e514434039.json",
+					"name" : "SDL3::SDL3-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SDL3::SDL3_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SDL3__SDL3_test-RelWithDebInfo-89a82c3ded0ce5d8f794.json",
+					"name" : "SDL3::SDL3_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Snappy::snappy::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Snappy__snappy-RelWithDebInfo-b4475269710362bac22b.json",
+					"name" : "Snappy::snappy",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Threads::Threads::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Threads__Threads-RelWithDebInfo-915e2cb8274abbcfb478.json",
+					"name" : "Threads::Threads",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fmt::fmt::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fmt__fmt-RelWithDebInfo-be07e30cb451c3195c33.json",
+					"name" : "fmt::fmt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fmt::fmt-header-only::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fmt__fmt-header-only-RelWithDebInfo-b17c4ff1af3883e63241.json",
+					"name" : "fmt::fmt-header-only",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rex::TracyClient::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rex__TracyClient-RelWithDebInfo-6ba31b92cc744440bb0c.json",
+					"name" : "rex::TracyClient",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rex::aes128::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rex__aes128-RelWithDebInfo-2c980b50a94b76735e02.json",
+					"name" : "rex::aes128",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rex::disasm::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rex__disasm-RelWithDebInfo-b2a7fb01cbae7782ab33.json",
+					"name" : "rex::disasm",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rex::disruptorplus::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rex__disruptorplus-RelWithDebInfo-72c6a1d4df39275e9185.json",
+					"name" : "rex::disruptorplus",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rex::dxc-headers::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rex__dxc-headers-RelWithDebInfo-2e59e9233bc879b64fd7.json",
+					"name" : "rex::dxc-headers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rex::libavcodec::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rex__libavcodec-RelWithDebInfo-7ccd0567beeb179a2db1.json",
+					"name" : "rex::libavcodec",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rex::libavutil::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rex__libavutil-RelWithDebInfo-64dc73a7b7d3e2b62cfe.json",
+					"name" : "rex::libavutil",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rex::mspack::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rex__mspack-RelWithDebInfo-fd08b008acdac7c56b58.json",
+					"name" : "rex::mspack",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rex::o1heap::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rex__o1heap-RelWithDebInfo-412cfca6a957e8611572.json",
+					"name" : "rex::o1heap",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rex::renderdoc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rex__renderdoc-RelWithDebInfo-77feb33387983939b6a2.json",
+					"name" : "rex::renderdoc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rex::rexglue::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rex__rexglue-RelWithDebInfo-82973b16f7599cd4dd1d.json",
+					"name" : "rex::rexglue",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rex::runtime::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rex__runtime-RelWithDebInfo-92ffbb3f020e9a5367ef.json",
+					"name" : "rex::runtime",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rex::simde::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rex__simde-RelWithDebInfo-447f97d32b3aabbc5a2e.json",
+					"name" : "rex::simde",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rex::tomlplusplus::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rex__tomlplusplus-RelWithDebInfo-75bf38c238f1d4390b75.json",
+					"name" : "rex::tomlplusplus",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rex::xxhash::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rex__xxhash-RelWithDebInfo-346f1f5106bcc925d4ee.json",
+					"name" : "rex::xxhash",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "spdlog::spdlog::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-spdlog__spdlog-RelWithDebInfo-8efa873778b0d6765068.json",
+					"name" : "spdlog::spdlog",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "spdlog::spdlog_header_only::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-spdlog__spdlog_header_only-RelWithDebInfo-d2cb67d236a8ee395f49.json",
+					"name" : "spdlog::spdlog_header_only",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "utf8cpp::utf8cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-utf8cpp__utf8cpp-RelWithDebInfo-48c6aa8884200dd8d3df.json",
+					"name" : "utf8cpp::utf8cpp",
+					"projectIndex" : 0
+				}
+			],
+			"directories" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24
+					],
+					"build" : ".",
+					"jsonFile" : "directory-.-RelWithDebInfo-f6f22219c74102c3da70.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "monster_madness",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "monster_madness::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-monster_madness-RelWithDebInfo-4ab7fa9dafe1763e9e95.json",
+					"name" : "monster_madness",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "monster_madness_codegen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-monster_madness_codegen-RelWithDebInfo-6193bc197ecfcafdfcf8.json",
+					"name" : "monster_madness_codegen",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "G:/rex/MonsterMadness/out/build/win-amd64-relwithdebinfo",
+		"source" : "G:/rex/MonsterMadness"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	}
+}
