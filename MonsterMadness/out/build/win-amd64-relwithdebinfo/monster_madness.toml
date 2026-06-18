@@ -1,8 +1,0 @@
-# Auto-generated cvar configuration
-log_level = "off"
-vsync = false
-d3d12_readback_memexport = true
-d3d12_submit_on_primary_buffer_end = false
-audio_mute = true
-protect_on_release = false
-scribble_heap = false
