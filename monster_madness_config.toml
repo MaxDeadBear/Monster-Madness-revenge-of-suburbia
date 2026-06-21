@@ -1,0 +1,46 @@
+# Monster Madness — D3D function naming for the native renderer (ReOdyssey-style).
+#
+# Names the guest Direct3D functions so codegen emits `rex_D3DDevice_*` /
+# `rex_D3DResource_*` symbols that src/render hooks can REX_HOOK. Kept separate
+# from the (auto-generated) manifest; wired in via the manifest's
+# [entrypoint].includes so it survives manifest regeneration.
+#
+# Addresses derived from MM's own code (no FLIRT) — see docs/D3D_FUNCTION_MAP.md
+# for the evidence and confidence per entry. HIGH = strongly confirmed (call-graph
+# / call-context / unambiguous slot); MED = best-effort, confirm before hooking.
+
+[functions]
+
+# --- Present / device (HIGH) ---
+0x822122D0 = { name = "rex_D3DDevice_Swap" }              # present; calls VdSwap
+
+# --- Draw family (HIGH unless noted) ---
+0x8265C5C8 = { name = "rex_D3DDevice_DrawVertices" }          # auto-index, bound stream
+0x8265C9B0 = { name = "rex_D3DDevice_DrawIndexedVertices" }   # prim-split, bound index buf
+0x8265C050 = { name = "rex_D3DDevice_DrawVerticesUP" }        # Begin + memcpy user data + End
+0x8265BBA0 = { name = "rex_D3DDevice_BeginVertices" }         # allocs+returns vtx buffer
+0x8265C098 = { name = "rex_D3DDevice_BeginIndexedVertices" }  # MED-HIGH: allocs vtx+idx
+0x8265C040 = { name = "rex_D3DDevice_EndVertices" }           # commits pending push ptr
+
+# --- Binding setters (HIGH) ---
+0x82205060 = { name = "rex_D3DDevice_SetIndices" }            # stores idx buf -> device[12428]
+0x82204EB8 = { name = "rex_D3DDevice_SetStreamSource" }       # per-stream slot 4*(i+3113)
+0x822050F8 = { name = "rex_D3DDevice_SetTexture" }            # per-stage slot 4*(stage+3108)
+0x82205460 = { name = "rex_D3DDevice_SetVertexDeclaration" }  # decl -> device[12448]
+0x82204D38 = { name = "rex_D3DDevice_SetViewport" }           # MED-HIGH: x/y/w/h + minZ/maxZ
+
+# --- Setters (MED — confirm before hooking) ---
+0x82205770 = { name = "rex_D3DDevice_SetVertexShader" }       # MED: state block via sub_8220ADA8
+0x82205838 = { name = "rex_D3DDevice_SetPixelShader" }        # MED: state block via sub_8220AF88
+0x82219460 = { name = "rex_D3DDevice_SetRenderTarget" }       # MED: surface bind -> device[3702]; may be SetDepthStencilSurface
+0x822046C0 = { name = "rex_D3DDevice_SetSamplerState_A" }     # MED: per-stage sampler entry
+0x82204758 = { name = "rex_D3DDevice_SetSamplerState_B" }     # MED: per-stage sampler entry
+
+# --- Resource management (MED) ---
+0x82205EA8 = { name = "rex_D3DResource_AddRef" }             # atomic +1
+0x82205D90 = { name = "rex_D3DResource_Release" }            # atomic -256
+0x82205FA0 = { name = "rex_D3DDevice_GetDevice" }            # VdGlobalDevice + addref
+
+# --- Internal helpers (named for clarity; not hook targets) ---
+0x8220A800 = { name = "rex_D3DDevice_InitRingBuffer" }       # ring-buffer/device init
+0x8220A2B8 = { name = "rex_D3D_ReservePushBuffer" }          # push-buffer reserve/wrap
