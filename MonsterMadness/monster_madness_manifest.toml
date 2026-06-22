@@ -8,7 +8,8 @@ game_root = "assets"
 [entrypoint]
 file_path = "assets/default.xex"
 out_directory_path = "generated/default"
-includes = []
+# D3D function naming for the native renderer (see monster_madness_config.toml).
+includes = ["monster_madness_config.toml"]
 
 setjmp_address  = 0x8290D100
 longjmp_address = 0x8290CEC0
